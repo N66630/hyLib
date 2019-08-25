@@ -1,0 +1,8 @@
+[distutils]
+index-servers =
+    pypi 
+
+[pypi] 
+repository: https://pypi.python.org/pypi
+username: (此處填帳號)
+password: (此處填密碼)

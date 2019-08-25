@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{fbf4e379-2924-4937-9c27-99e86fce3f2e}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>hyTests\Main.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include=".eggs\nose-1.3.7-py3.6.egg\nose\case.py" />
+    <Compile Include=".eggs\nose-1.3.7-py3.6.egg\nose\commands.py" />
+    <Compile Include=".eggs\nose-1.3.7-py3.6.egg\nose\config.py" />
+    <Compile Include=".eggs\nose-1.3.7-py3.6.egg\nose\core.py" />
+    <Compile Include=".eggs\nose-1.3.7-py3.6.egg\nose\exc.py" />
+    <Compile Include=".eggs\nose-1.3.7-py3.6.egg\nose\ext\dtcompat.py" />
+    <Compile Include=".eggs\nose-1.3.7-py3.6.egg\nose\ext\__init__.py" />
+    <Compile Include=".eggs\nose-1.3.7-py3.6.egg\nose\failure.py" />
+    <Compile Include=".eggs\nose-1.3.7-py3.6.egg\nose\importer.py" />
+    <Compile Include=".eggs\nose-1.3.7-py3.6.egg\nose\inspector.py" />
+    <Compile Include=".eggs\nose-1.3.7-py3.6.egg\nose\loader.py" />
+    <Compile Include=".eggs\nose-1.3.7-py3.6.egg\nose\plugins\allmodules.py" />
+    <Compile Include=".eggs\nose-1.3.7-py3.6.egg\nose\plugins\attrib.py" />
+    <Compile Include=".eggs\nose-1.3.7-py3.6.egg\nose\plugins\base.py" />
+    <Compile Include=".eggs\nose-1.3.7-py3.6.egg\nose\plugins\builtin.py" />
+    <Compile Include=".eggs\nose-1.3.7-py3.6.egg\nose\plugins\capture.py" />
+    <Compile Include=".eggs\nose-1.3.7-py3.6.egg\nose\plugins\collect.py" />
+    <Compile Include=".eggs\nose-1.3.7-py3.6.egg\nose\plugins\cover.py" />
+    <Compile Include=".eggs\nose-1.3.7-py3.6.egg\nose\plugins\debug.py" />
+    <Compile Include=".eggs\nose-1.3.7-py3.6.egg\nose\plugins\deprecated.py" />
+    <Compile Include=".eggs\nose-1.3.7-py3.6.egg\nose\plugins\doctests.py" />
+    <Compile Include=".eggs\nose-1.3.7-py3.6.egg\nose\plugins\errorclass.py" />
+    <Compile Include=".eggs\nose-1.3.7-py3.6.egg\nose\plugins\failuredetail.py" />
+    <Compile Include=".eggs\nose-1.3.7-py3.6.egg\nose\plugins\isolate.py" />
+    <Compile Include=".eggs\nose-1.3.7-py3.6.egg\nose\plugins\logcapture.py" />
+    <Compile Include=".eggs\nose-1.3.7-py3.6.egg\nose\plugins\manager.py" />
+    <Compile Include=".eggs\nose-1.3.7-py3.6.egg\nose\plugins\multiprocess.py" />
+    <Compile Include=".eggs\nose-1.3.7-py3.6.egg\nose\plugins\plugintest.py" />
+    <Compile Include=".eggs\nose-1.3.7-py3.6.egg\nose\plugins\prof.py" />
+    <Compile Include=".eggs\nose-1.3.7-py3.6.egg\nose\plugins\skip.py" />
+    <Compile Include=".eggs\nose-1.3.7-py3.6.egg\nose\plugins\testid.py" />
+    <Compile Include=".eggs\nose-1.3.7-py3.6.egg\nose\plugins\xunit.py" />
+    <Compile Include=".eggs\nose-1.3.7-py3.6.egg\nose\plugins\__init__.py" />
+    <Compile Include=".eggs\nose-1.3.7-py3.6.egg\nose\proxy.py" />
+    <Compile Include=".eggs\nose-1.3.7-py3.6.egg\nose\pyversion.py" />
+    <Compile Include=".eggs\nose-1.3.7-py3.6.egg\nose\result.py" />
+    <Compile Include=".eggs\nose-1.3.7-py3.6.egg\nose\selector.py" />
+    <Compile Include=".eggs\nose-1.3.7-py3.6.egg\nose\sphinx\pluginopts.py" />
+    <Compile Include=".eggs\nose-1.3.7-py3.6.egg\nose\sphinx\__init__.py" />
+    <Compile Include=".eggs\nose-1.3.7-py3.6.egg\nose\suite.py" />
+    <Compile Include=".eggs\nose-1.3.7-py3.6.egg\nose\tools\nontrivial.py" />
+    <Compile Include=".eggs\nose-1.3.7-py3.6.egg\nose\tools\trivial.py" />
+    <Compile Include=".eggs\nose-1.3.7-py3.6.egg\nose\tools\__init__.py" />
+    <Compile Include=".eggs\nose-1.3.7-py3.6.egg\nose\twistedtools.py" />
+    <Compile Include=".eggs\nose-1.3.7-py3.6.egg\nose\util.py" />
+    <Compile Include=".eggs\nose-1.3.7-py3.6.egg\nose\__init__.py" />
+    <Compile Include=".eggs\nose-1.3.7-py3.6.egg\nose\__main__.py" />
+    <Compile Include="build\lib\hyRoot\Common.py" />
+    <Compile Include="build\lib\hyRoot\IO\Config.py" />
+    <Compile Include="build\lib\hyRoot\IO\File.py" />
+    <Compile Include="build\lib\hyRoot\IO\Log.py" />
+    <Compile Include="build\lib\hyRoot\IO\__init__.py" />
+    <Compile Include="build\lib\hyRoot\__init__.py" />
+    <Compile Include="build\lib\hyTests\Main.py" />
+    <Compile Include="build\lib\hyTests\__init__.py" />
+    <Compile Include="hyLib-3.6.1.0\hyRoot\Common.py" />
+    <Compile Include="hyLib-3.6.1.0\hyRoot\IO\Config.py" />
+    <Compile Include="hyLib-3.6.1.0\hyRoot\IO\File.py" />
+    <Compile Include="hyLib-3.6.1.0\hyRoot\IO\Log.py" />
+    <Compile Include="hyLib-3.6.1.0\hyRoot\__init__.py" />
+    <Compile Include="hyLib-3.6.1.0\hyTests\Main.py" />
+    <Compile Include="hyLib-3.6.1.0\hyTests\__init__.py" />
+    <Compile Include="hyLib-3.6.1.0\setup.py" />
+    <Compile Include="hyRoot\Common.py" />
+    <Compile Include="hyRoot\IO\Config.py" />
+    <Compile Include="hyRoot\IO\File.py" />
+    <Compile Include="hyRoot\IO\init__.py" />
+    <Compile Include="hyRoot\IO\Log.py" />
+    <Compile Include="hyRoot\__init__.py" />
+    <Compile Include="hyTests\Main.py" />
+    <Compile Include="hyTests\__init__.py" />
+    <Compile Include="setup.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".eggs\nose-1.3.7-py3.6.egg\EGG-INFO\entry_points.txt" />
+    <Content Include=".eggs\nose-1.3.7-py3.6.egg\EGG-INFO\top_level.txt" />
+    <Content Include=".eggs\nose-1.3.7-py3.6.egg\nose\usage.txt" />
+    <Content Include=".eggs\README.txt" />
+    <Content Include=".spyproject\codestyle.ini" />
+    <Content Include=".spyproject\encoding.ini" />
+    <Content Include=".spyproject\vcs.ini" />
+    <Content Include=".spyproject\workspace.ini" />
+    <Content Include="hyLib-3.6.1.0\hyLib.egg-info\dependency_links.txt" />
+    <Content Include="hyLib-3.6.1.0\hyLib.egg-info\SOURCES.txt" />
+    <Content Include="hyLib-3.6.1.0\hyLib.egg-info\top_level.txt" />
+    <Content Include="hyLib.egg-info\dependency_links.txt" />
+    <Content Include="hyLib.egg-info\SOURCES.txt" />
+    <Content Include="hyLib.egg-info\top_level.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".eggs" />
+    <Folder Include=".eggs\nose-1.3.7-py3.6.egg\" />
+    <Folder Include=".eggs\nose-1.3.7-py3.6.egg\EGG-INFO" />
+    <Folder Include=".eggs\nose-1.3.7-py3.6.egg\nose" />
+    <Folder Include=".eggs\nose-1.3.7-py3.6.egg\nose\ext" />
+    <Folder Include=".eggs\nose-1.3.7-py3.6.egg\nose\plugins" />
+    <Folder Include=".eggs\nose-1.3.7-py3.6.egg\nose\sphinx" />
+    <Folder Include=".eggs\nose-1.3.7-py3.6.egg\nose\tools" />
+    <Folder Include=".spyproject" />
+    <Folder Include="build\" />
+    <Folder Include="build\lib\" />
+    <Folder Include="build\lib\hyRoot" />
+    <Folder Include="build\lib\hyRoot\IO" />
+    <Folder Include="build\lib\hyTests" />
+    <Folder Include="hyLib-3.6.1.0" />
+    <Folder Include="hyLib-3.6.1.0\hyLib.egg-info" />
+    <Folder Include="hyLib-3.6.1.0\hyRoot" />
+    <Folder Include="hyLib-3.6.1.0\hyRoot\IO" />
+    <Folder Include="hyLib-3.6.1.0\hyTests" />
+    <Folder Include="hyLib.egg-info" />
+    <Folder Include="hyRoot" />
+    <Folder Include="hyRoot\IO" />
+    <Folder Include="hyTests" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>
